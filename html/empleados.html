@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>empleados</title>
+<link rel="stylesheet" href="/veterinariauwu/css/estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"
+>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="/veterinariauwu/css/estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl603oVMWSktQOp6b7In1Zl3/jr59b6EGGoI1aFKw7cmDA6j6gD" crossorigin="anonymous">
+
+
+	<script>
+		function comprobarclave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+			if (clave1 == "admin" && clave2 == "conejo"){
+				alert("los datos coinciden...\n bienvenido");
+				var href = "soloempleados.html";;
+				window.location=href;
+			}
+
+			else{
+				alert("error...\nintentelo nuevamente.");
+				var href = "empleados.html";
+				window.location=href;
+
+			};
+		}
+	</script>
+	<link rel="stylesheet" href="/kyoresu/riro/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+	<body background="https://i.pinimg.com/564x/7a/0e/6d/7a0e6dc7a8220916249db233708cd2dc.jpg"></body>
+	
+	<h1>presionar botor de ingresar</h1>
+
+	<br>
+	<form action="" name="f1">
+		<center>
+			<hr color = "LightPink">
+<h2>USUARIO: <input type="password" name="clave1" size="20"></h2>
+<br><br>
+<h2>CONTRASEÑA: <input type="password" name="clave2" size="20"></h2>
+<br><br>
+<input type="button" value="ingresar" onclick="comprobarclave()">
+<br>
+</center>
+<hr color ="LightPink">	
+	<CENTER><a title="home" href="../otroprincipal.html"><img src="../imagenes/logoveterinaria.png" alt="home" /></a></CENTER>
+	<hr color="LightPink">
+	<ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+ 				 <li class="nav-item" role="presentation">
+		    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="../otroprincipal.html" style="color:#FF69B4;">home</a> &nbsp;&nbsp;</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+		    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="especialidades.html" style="color:#FF69B4;">especialidades</a> &nbsp;&nbsp;</button>
+			  </li>
+ 				 <li class="nav-item" role="presentation">
+		    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="servicios.html" style="color:#FF69B4;">servicios</a> &nbsp;&nbsp;</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+		    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="ubicacion.html" style="color:#FF69B4;">ubicacion</a> &nbsp;&nbsp;</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+		    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="informacion.html" style="color:#FF69B4;">informacion</a> &nbsp;&nbsp;</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+		    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false"><a href="adopcion.html" style="color:#FF69B4;">adopcion</a> &nbsp;&nbsp;</button>
+			  </li>
+				</ul>
+</body>
+</html>

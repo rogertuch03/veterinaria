@@ -1,0 +1,27 @@
+body {color: black;
+	background-color: pink ;
+	font-size: 20px;
+	font-family: courier;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 30px;
+	letter-spacing: 5px;
+
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-size: 18pt;
+}
+
+h2 {
+	color: green;
+	text-align: center;
+	font-size: 16pt;
+	font-family: verdana;
+}
+li:first-child {background-color: rgb(255, 255, 255);}
+li:nth-child(2){background-color: rgb(255, 255, 255);}
+li:nth-child(3){background-color: rgb(255, 255, 255);}
+li:nth-child(4){background-color: rgb(255, 255, 255);}
