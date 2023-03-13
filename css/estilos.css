@@ -25,3 +25,19 @@ li:first-child {background-color: rgb(255, 255, 255);}
 li:nth-child(2){background-color: rgb(255, 255, 255);}
 li:nth-child(3){background-color: rgb(255, 255, 255);}
 li:nth-child(4){background-color: rgb(255, 255, 255);}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
